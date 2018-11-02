@@ -1,0 +1,38 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+
+#config with password
+server/EWSConfig.js
+# testing
+coverage/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+config/dev.sqlite3
+server/dev.sqlite3
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dev.sqlite3
+
+# production
+client/build/
+server/dist
+
+logs
+
+sabo-wp-plugin/static
+/.idea/
+bnh-carshop.iml
+/docker/certs/
+/env/
+
